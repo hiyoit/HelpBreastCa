@@ -1,0 +1,15 @@
+.Timer-contain {
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+}
+
+.Timer-add {
+    width: 25px;
+    height: 25px;
+}
+
+.Timer-subtract {
+    width: 25px;
+    height: 25px;
+}

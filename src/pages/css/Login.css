@@ -1,0 +1,12 @@
+#login-form {
+    display: block;
+    flex-direction: column;
+}
+
+.account {
+    display: block;
+}
+
+.code {
+    display: block;
+}

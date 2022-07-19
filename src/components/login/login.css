@@ -1,0 +1,45 @@
+.login-contain {
+    width: 350px;
+    background-color: aquamarine;
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.login-form-account {
+    display: flex;
+    margin-left: 20px;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.login-form-code {
+    display: flex;
+    margin-left: 20px;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.login-form-confirm {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#login-submit {
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+
+#cancel {
+    margin-left: 60px;
+    border-radius: 5px;
+}

@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+/* 外层容器样式 */
+.logs {
+    width: 800px;
+    background-color: #EEC211;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+}
+
+/* set logitem */
+.logsItem{
+    display: flex;
+    margin: 16px 10px 10px 16px;
+    padding: 6px;
+    background-color: #FCBF49;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+}
+
+/* set data */
+.date {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* set month */
+.month {
+    height: 30px;
+    background-color: #D62828;
+    line-height: 30px;
+    color: #fff;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+/* set day */
+.day{
+    height: 60px;
+    padding-top: 15px;
+    line-height: 30px;
+    font-size: 50px;
+    overflow: hidden;
+}
+
+/* set content */
+.content {
+    flex: auto;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* set describe */
+.desc {
+    font-size: 16px;
+    color: #194B49;
+}
+/* set time */
+.time {
+    color: #D62828;
+}
+
+body {
+    background-color: #DFDFDF;
+}
